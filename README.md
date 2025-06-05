@@ -1,189 +1,223 @@
-# TrasteroApp Standalone v1.1.0
+# TrasteroApp v1.2.0 - Sincronización GitHub
 
-Una aplicación HTML/CSS/JavaScript pura para gestionar objetos personales en casa **con protección por contraseña**, que funciona directamente desde el sistema de archivos sin necesidad de servidor web.
+## 🎯 Problema Resuelto
 
-## 🚀 Características
+TrasteroApp v1.2.0 resuelve el problema de **múltiples contraseñas y datos separados entre dispositivos**. Ahora puedes acceder a tu inventario desde cualquier dispositivo con una sola contraseña y todos tus datos sincronizados automáticamente.
 
-- 🔐 **Sistema de autenticación**: Protege tus datos con contraseña personal
-- **Gestión completa de objetos**: Agregar, editar ubicación y eliminar objetos
-- **Búsqueda en tiempo real**: Buscar por nombre de objeto o ubicación
-- **Persistencia local segura**: Los datos se guardan encriptados en localStorage
-- **Diseño responsive**: Funciona en desktop, tablet y móvil
-- **Sin dependencias**: Funciona con protocolo file:// directamente
-- **Interfaz moderna**: Diseño minimalista con iconos SVG integrados
-- 🔒 **Privacidad total**: Todos los datos permanecen en tu dispositivo
+## ✨ Nuevas Características v1.2.0
 
-## 🔐 Funcionalidades de Seguridad (NUEVO v1.1.0)
+### 🔗 Sincronización GitHub
+- **Una sola contraseña** para todos los dispositivos
+- **Sincronización automática** en tiempo real
+- **Respaldo en la nube** usando GitHub como backend
+- **Modo offline** con sincronización posterior
 
-### Sistema de Autenticación
-- 🔑 **Primera configuración**: Establece tu contraseña al primer uso
-- 🔒 **Login seguro**: Acceso protegido con pantalla de autenticación
-- 👁️ **Visibilidad de contraseña**: Opción para mostrar/ocultar contraseña
-- ⏰ **Sesión temporal**: Cierre automático tras 30 minutos de inactividad
-- 🔄 **Cambio de contraseña**: Actualiza tu contraseña desde la aplicación
-- 🚪 **Cierre manual**: Botón de cerrar sesión disponible siempre
+### 🛠️ Setup Wizard Inteligente
+- Configuración guiada paso a paso
+- Auto-detección del repositorio
+- Migración automática de datos existentes
+- Verificación de credenciales GitHub
 
-### Protección de Datos
-- 🔐 **Encriptación básica**: Contraseñas almacenadas con hash + salt
-- 💾 **Tokens temporales**: Sesiones seguras con limpieza automática
-- 🛡️ **Validación robusta**: Verificación de credenciales y longitud mínima
-- 🧹 **Limpieza automática**: Eliminación de datos sensibles al cerrar sesión
+### 🌐 Experiencia Multi-Dispositivo
+- **Primera vez**: Setup completo con wizard
+- **Dispositivos adicionales**: Solo ingresa tu contraseña maestra
+- **Datos siempre actualizados** en todos los dispositivos
+- **Indicadores de estado** de sincronización
 
-## 📋 Funcionalidades
+## 🚀 Inicio Rápido
 
-### Gestión de Objetos
-- ✅ Agregar objetos con nombre y ubicación
-- ✅ Editar ubicación de objetos existentes
-- ✅ Eliminar objetos con confirmación
-- ✅ Timestamps automáticos (creación y modificación)
+### Primer Uso (Setup Inicial)
 
-### Búsqueda y Filtrado
-- ✅ Búsqueda en tiempo real
-- ✅ Filtrar por nombre de objeto
-- ✅ Filtrar por ubicación
-- ✅ Contador de resultados
+1. **Abrir TrasteroApp v1.2.0** en tu navegador
+2. **Configurar GitHub** (una sola vez):
+   - Crear Personal Access Token en GitHub
+   - Especificar nombre del repositorio
+3. **Establecer contraseña maestra** (funciona en todos los dispositivos)
+4. **Migrar datos existentes** (si los tienes) o empezar de cero
 
-### Persistencia y Estados
-- ✅ Almacenamiento en localStorage
-- ✅ Contadores automáticos
-- ✅ Estados de carga y edición
-- ✅ Confirmaciones de eliminación
+### Uso en Dispositivos Adicionales
 
-## 🛠️ Instalación y Uso
+1. **Abrir TrasteroApp v1.2.0**
+2. **Ingresar contraseña maestra**
+3. **¡Listo!** Todos tus datos están sincronizados
 
-### Opción 1: Archivo Único con Autenticación (Recomendado)
-1. Descarga el archivo `index.html` (versión 1.1.0 con autenticación)
-2. Abre el archivo directamente en tu navegador preferido
-3. Configura tu contraseña en el primer acceso
-4. ¡Listo! Tu aplicación está protegida y funcionando
+## 📋 Configuración GitHub
 
-### Opción 2: Archivos Separados con Autenticación
-Si prefieres tener CSS y JavaScript en archivos separados:
-1. Descarga: `index-modular.html`, `styles.css`, `script.js`
-2. Mantén los archivos en la misma carpeta
-3. Abre `index-modular.html` en tu navegador
-4. Configura tu contraseña en el primer acceso
+### Crear Personal Access Token
 
-### Migración desde Versión Anterior
-- Los usuarios existentes: Al actualizar se solicitará configurar contraseña
-- Datos existentes: Se mantienen todos los objetos guardados anteriormente
-- Compatibilidad: Funciona con todos los navegadores modernos
+1. Ve a **GitHub Settings** → **Developer settings** → **Personal access tokens** → **Tokens (classic)**
+2. Clic en **"Generate new token (classic)"**
+3. Selecciona permisos: **`repo`** (Full control of private repositories)
+4. Copia el token generado
 
-## 🎨 Diseño
+### Estructura del Repositorio
 
-- **Colores**: Esquema azul/gris con acentos visuales
-- **Tipografía**: Inter font stack con fallbacks del sistema
-- **Iconos**: SVG inline para máxima compatibilidad
-- **Animaciones**: Transiciones suaves y feedback visual
-- **Responsive**: Diseño adaptativo para todos los dispositivos
+```
+tu-repositorio/
+└── data/
+    └── trastero-data.json  # Archivo principal de datos
+```
 
-## 📱 Compatibilidad
+### Archivo de Datos (`trastero-data.json`)
 
-- ✅ Chrome/Chromium (Recomendado)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Funciona con protocolo `file://`
-- ✅ No requiere servidor web
-- ✅ Compatible con dispositivos móviles
-
-## 💾 Almacenamiento de Datos
-
-Los datos se almacenan localmente en el navegador usando `localStorage`:
-- **Objetos**: `trastero_items` - JSON array de objetos
-- **Contraseña**: `trastero_password` - Hash encriptado con salt
-- **Sesión**: `trastero_last_auth` - Timestamp de última autenticación
-- **Token temporal**: `trastero_session` (sessionStorage) - Token de sesión activa
-- **Persistencia**: Los datos persisten entre sesiones de forma segura
-- **Privacidad**: Los datos nunca salen de tu dispositivo
-
-### Estructura de Datos
-```javascript
+```json
 {
-  id: "único_id_generado",
-  nombre: "Nombre del objeto",
-  ubicacion: "Ubicación específica",
-  fechaCreacion: "2024-01-01T00:00:00.000Z",
-  fechaModificacion: "2024-01-01T00:00:00.000Z"
+  "version": "1.2.0",
+  "passwordHash": "hash_de_contraseña_maestra",
+  "lastSync": "2025-06-05T20:00:00.000Z",
+  "owner": "tu_usuario_github",
+  "config": {
+    "repo": "nombre_repositorio",
+    "created": "2025-06-05T20:00:00.000Z"
+  },
+  "items": [
+    // array de objetos del usuario
+  ]
 }
 ```
 
-## 🔧 Desarrollo
+## 🔒 Seguridad
 
-### Estructura del Proyecto
+- **Contraseñas encriptadas** con SHA-256 + salt
+- **Tokens GitHub encriptados** en localStorage
+- **Repositorios privados** por defecto
+- **Validación de credenciales** antes de configurar
+
+## 📱 Estados de Sincronización
+
+### 🟢 En Línea
+- Conectado a internet
+- Sincronización automática activa
+- Datos actualizados en tiempo real
+
+### 🟡 Sincronizando
+- Subiendo/descargando cambios
+- Indicador visual pulsante
+- Proceso en curso
+
+### 🔴 Sin Conexión
+- Modo offline activo
+- Cambios guardados localmente
+- Se sincroniza al reconectar
+
+## 🛠️ Funcionalidades
+
+### Gestión de Objetos
+- ➕ **Agregar objetos** con nombre, ubicación, categoría y descripción
+- ✏️ **Editar objetos** existentes
+- 🗑️ **Eliminar objetos** con confirmación
+- 🔍 **Buscar objetos** en tiempo real
+
+### Sincronización Automática
+- 🔄 **Sincronización automática** después de cada cambio
+- 🔄 **Botón de sincronización manual** para forzar actualización
+- 📊 **Estadísticas de sincronización** en tiempo real
+
+### Gestión de Contraseñas
+- 🔑 **Cambiar contraseña maestra** desde la aplicación
+- 🔐 **Verificación de contraseña actual** antes del cambio
+- 🔄 **Sincronización automática** de nuevas credenciales
+
+### Importar/Exportar
+- 📤 **Exportar datos** a JSON local
+- 📥 **Importar datos** desde archivo JSON
+- 🔄 **Migración automática** de datos existentes
+
+## 📊 Estadísticas
+
+- **Objetos Totales**: Contador en tiempo real
+- **Ubicaciones Únicas**: Número de ubicaciones diferentes
+- **Agregados Hoy**: Objetos añadidos en el día actual
+- **Última Sincronización**: Timestamp de la última sincronización
+
+## 🎨 Interfaz de Usuario
+
+### Diseño Elegante
+- **Gradientes modernos** con palette azul-gris
+- **Animaciones suaves** y transiciones
+- **Iconos SVG** vectoriales
+- **Diseño responsive** para móviles y tablets
+
+### Experiencia de Usuario
+- **Setup wizard** intuitivo paso a paso
+- **Mensajes contextuales** de éxito/error/warning
+- **Indicadores visuales** de estado de sincronización
+- **Loading screens** informativos
+
+## 🔧 Tecnologías
+
+- **HTML5/CSS3/JavaScript** vanilla (sin dependencias)
+- **GitHub REST API v4** para sincronización
+- **Web Crypto API** para encriptación
+- **localStorage** para cache y configuración
+- **Progressive Web App** compatible
+
+## 🌐 Compatibilidad
+
+### Navegadores Soportados
+- ✅ Chrome 80+
+- ✅ Firefox 75+
+- ✅ Safari 13+
+- ✅ Edge 80+
+
+### Dispositivos
+- 💻 **Desktop** (Windows, macOS, Linux)
+- 📱 **Móviles** (iOS, Android)
+- 🖥️ **Tablets** (iPad, Android tablets)
+
+## 📝 Flujo de Trabajo
+
+### Primera Configuración
 ```
-TrasteroApp_Standalone/
-├── index.html                    # Aplicación completa con autenticación
-├── index-modular.html           # Versión modular con autenticación
-├── styles.css                   # Estilos con funciones de seguridad
-├── script.js                    # JavaScript con sistema de auth
-├── index-original.html          # Versión anterior (sin auth)
-├── styles-original.css          # Estilos originales (backup)
-├── script-original.js           # JavaScript original (backup)
-└── README.md                    # Este archivo
+1. Abrir TrasteroApp → 2. Setup GitHub Token → 3. Contraseña Maestra → 4. Migrar Datos → 5. ¡Listo!
 ```
 
-### Características Técnicas
-- **Sin bundlers**: JavaScript vanilla ES6+
-- **Sin frameworks**: HTML/CSS/JS puro
-- **Sin CDN**: Todo autocontenido
-- **Modular**: Código bien estructurado y comentado
-- **Performante**: Optimizado para velocidad y UX
+### Uso Diario
+```
+1. Abrir TrasteroApp → 2. Ingresar Contraseña → 3. Gestionar Objetos → 4. Sincronización Automática
+```
 
-## 🐛 Resolución de Problemas
+### Nuevo Dispositivo
+```
+1. Abrir TrasteroApp → 2. Ingresar Contraseña Maestra → 3. Datos Sincronizados Automáticamente
+```
 
-### La aplicación no carga
-- Asegúrate de que JavaScript esté habilitado en tu navegador
-- Verifica que el archivo no esté corrupto
-- Intenta abrir en modo incógnito
+## 🆘 Resolución de Problemas
 
-### Los datos no se guardan
-- Verifica que localStorage esté habilitado
-- Comprueba que no estés en modo incógnito (en algunos navegadores)
-- Asegúrate de tener espacio suficiente en el navegador
+### Token GitHub Inválido
+- Verificar que el token tenga permisos `repo`
+- Regenerar token si es necesario
+- Usar "Reconfigurar GitHub Sync" para empezar de nuevo
 
-### Problemas de visualización
-- Actualiza el navegador a la versión más reciente
-- Verifica que CSS esté habilitado
-- Intenta cambiar el zoom del navegador (Ctrl + 0)
+### Error de Sincronización
+- Verificar conexión a internet
+- Comprobar que el repositorio existe
+- Usar "Sincronizar" manual para reintentar
 
-### Problemas de autenticación
-- **Contraseña olvidada**: Ejecuta `localStorage.removeItem('trastero_password')` en la consola del navegador
-- **Sesión bloqueada**: Limpia el localStorage o espera 30 minutos para que expire
-- **Error de login**: Verifica que la contraseña tenga al menos 4 caracteres
-- **Datos no accesibles**: Asegúrate de introducir la contraseña correcta
+### Contraseña Olvidada
+- La contraseña está almacenada en GitHub
+- Usar "Reconfigurar GitHub Sync" para crear nueva configuración
+- Los datos existentes se conservan en GitHub
+
+## 🚀 Próximas Características
+
+- 🔄 **Sincronización en segundo plano** con Service Workers
+- 📸 **Fotos de objetos** con almacenamiento en GitHub
+- 🏷️ **Etiquetas personalizadas** y filtros avanzados
+- 📱 **Aplicación móvil nativa** con Capacitor
+- 👥 **Compartir inventarios** entre usuarios
 
 ## 📄 Licencia
 
-Este proyecto es de dominio público. Puedes usar, modificar y distribuir libremente.
+MIT License - Ver archivo LICENSE para más detalles.
 
-## 🤝 Contribuciones
+## 📞 Soporte
 
-Si encuentras errores o tienes sugerencias de mejora:
-1. Reporta el issue con detalles específicos
-2. Incluye información del navegador y sistema operativo
-3. Describe los pasos para reproducir el problema
+Para reportar problemas o solicitar características:
+- Crear issue en el repositorio GitHub
+- Documentar pasos para reproducir el problema
+- Incluir información del navegador y dispositivo
 
-## 📋 Changelog
+---
 
-### v1.1.0 (ACTUAL) - Sistema de Autenticación
-- 🔐 **NUEVO**: Sistema de autenticación con contraseña
-- 🔑 **NUEVO**: Pantalla de login con setup inicial
-- ⏰ **NUEVO**: Gestión de sesiones con timeout automático (30 min)
-- 🔄 **NUEVO**: Cambio de contraseña desde la aplicación
-- 🚪 **NUEVO**: Botón de cerrar sesión
-- 🛡️ **NUEVO**: Encriptación básica de contraseña con salt
-- 💾 **NUEVO**: Tokens de sesión temporales seguros
-- 🔒 **MEJORADO**: Header rediseñado con controles de seguridad
-- 📱 **MEJORADO**: Diseño responsive para pantallas de login
-- 🎨 **MEJORADO**: Nuevos estilos para modales y mensajes de estado
-
-### v1.0.0 - Funcionalidad Base
-- ✅ Funcionalidad completa implementada
-- ✅ Diseño responsive
-- ✅ Persistencia con localStorage
-- ✅ Búsqueda en tiempo real
-- ✅ Edición inline de ubicaciones
-- ✅ Confirmación de eliminación
-- ✅ Contadores automáticos
-- ✅ Feedback visual y animaciones
+**TrasteroApp v1.2.0** - Una sola contraseña, todos tus dispositivos sincronizados. 🎯
