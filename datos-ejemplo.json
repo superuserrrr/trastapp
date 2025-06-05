@@ -1,0 +1,42 @@
+{
+  "version": "1.1.0",
+  "fecha": "2025-06-05T14:18:19.000Z",
+  "total": 5,
+  "items": [
+    {
+      "id": "ejemplo-1",
+      "nombre": "Reloj Casio",
+      "ubicacion": "Cajón del dormitorio",
+      "fechaCreacion": "2025-06-01T10:30:00.000Z",
+      "fechaModificacion": "2025-06-01T10:30:00.000Z"
+    },
+    {
+      "id": "ejemplo-2",
+      "nombre": "Cámara Sony",
+      "ubicacion": "Estantería sala de estar",
+      "fechaCreacion": "2025-06-02T14:45:00.000Z",
+      "fechaModificacion": "2025-06-02T14:45:00.000Z"
+    },
+    {
+      "id": "ejemplo-3",
+      "nombre": "Libros de historia",
+      "ubicacion": "Biblioteca, estante superior",
+      "fechaCreacion": "2025-06-03T09:15:00.000Z",
+      "fechaModificacion": "2025-06-03T09:15:00.000Z"
+    },
+    {
+      "id": "ejemplo-4",
+      "nombre": "Herramientas de jardín",
+      "ubicacion": "Garaje, caja verde",
+      "fechaCreacion": "2025-06-04T16:20:00.000Z",
+      "fechaModificacion": "2025-06-04T16:20:00.000Z"
+    },
+    {
+      "id": "ejemplo-5",
+      "nombre": "Juguetes niños",
+      "ubicacion": "Caja bajo la cama",
+      "fechaCreacion": "2025-06-05T11:10:00.000Z", 
+      "fechaModificacion": "2025-06-05T11:10:00.000Z"
+    }
+  ]
+}
