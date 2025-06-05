@@ -1,42 +1,49 @@
 {
   "version": "1.1.0",
-  "fecha": "2025-06-05T14:18:19.000Z",
-  "total": 5,
+  "fecha": "2025-06-05T15:45:00.000Z",
+  "total": 6,
   "items": [
     {
-      "id": "ejemplo-1",
-      "nombre": "Reloj Casio",
-      "ubicacion": "Cajón del dormitorio",
+      "id": "demo-1",
+      "nombre": "Llaves del coche",
+      "ubicacion": "Gancho entrada casa",
       "fechaCreacion": "2025-06-01T10:30:00.000Z",
       "fechaModificacion": "2025-06-01T10:30:00.000Z"
     },
     {
-      "id": "ejemplo-2",
-      "nombre": "Cámara Sony",
-      "ubicacion": "Estantería sala de estar",
+      "id": "demo-2",
+      "nombre": "Tablet iPad",
+      "ubicacion": "Cajón mesita noche",
       "fechaCreacion": "2025-06-02T14:45:00.000Z",
       "fechaModificacion": "2025-06-02T14:45:00.000Z"
     },
     {
-      "id": "ejemplo-3",
-      "nombre": "Libros de historia",
-      "ubicacion": "Biblioteca, estante superior",
+      "id": "demo-3",
+      "nombre": "Gafas de sol Ray-Ban",
+      "ubicacion": "Coche, guantera",
       "fechaCreacion": "2025-06-03T09:15:00.000Z",
       "fechaModificacion": "2025-06-03T09:15:00.000Z"
     },
     {
-      "id": "ejemplo-4",
-      "nombre": "Herramientas de jardín",
-      "ubicacion": "Garaje, caja verde",
+      "id": "demo-4",
+      "nombre": "Documentos importantes",
+      "ubicacion": "Carpeta azul, despacho",
       "fechaCreacion": "2025-06-04T16:20:00.000Z",
       "fechaModificacion": "2025-06-04T16:20:00.000Z"
     },
     {
-      "id": "ejemplo-5",
-      "nombre": "Juguetes niños",
-      "ubicacion": "Caja bajo la cama",
+      "id": "demo-5",
+      "nombre": "Cargador portátil",
+      "ubicacion": "Mochila trabajo",
       "fechaCreacion": "2025-06-05T11:10:00.000Z", 
       "fechaModificacion": "2025-06-05T11:10:00.000Z"
+    },
+    {
+      "id": "demo-6",
+      "nombre": "Medicamentos",
+      "ubicacion": "Botiquín baño principal",
+      "fechaCreacion": "2025-06-05T12:30:00.000Z", 
+      "fechaModificacion": "2025-06-05T12:30:00.000Z"
     }
   ]
 }
