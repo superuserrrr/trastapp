@@ -1,11 +1,11 @@
 {
   "version": "1.2.0",
   "passwordHash": "0a93ab19272b9f8a2ef4c59adf447672f5887ad7ce6fff52dd9f6eea1267ed19",
-  "lastSync": "2025-06-07T20:09:51.569Z",
+  "lastSync": "2025-06-07T20:11:40.822Z",
   "owner": "superuserrrr",
   "config": {
     "repo": "trastapp",
-    "created": "2025-06-07T20:09:51.569Z"
+    "created": "2025-06-07T20:11:40.822Z"
   },
   "items": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "id": "mbjc9qbh2uez9nvhhcb",
-      "name": "Botas montaña Vivobarefoot",
+      "name": "Botas montaÃ±a Vivobarefoot",
       "location": "Armario entrada",
       "dateAdded": "5/6/2025",
       "dateModified": "2025-06-07T20:09:40.792Z"
