@@ -1,11 +1,131 @@
 {
   "version": "1.2.0",
   "passwordHash": "0a93ab19272b9f8a2ef4c59adf447672f5887ad7ce6fff52dd9f6eea1267ed19",
-  "lastSync": "2025-06-07T20:09:10.874Z",
+  "lastSync": "2025-06-07T20:09:40.792Z",
   "owner": "superuserrrr",
   "config": {
     "repo": "trastapp",
-    "created": "2025-06-07T20:09:10.874Z"
+    "created": "2025-06-07T20:09:40.792Z"
   },
-  "items": []
+  "items": [
+    {
+      "id": "mbjcdxgsjh3jt5jg8tj",
+      "name": "Hub USB Lenovo",
+      "location": "Trastero rellano",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjcd1scc0mlk7xbuye",
+      "name": "Hub USB startech",
+      "location": "Trastero rellano",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjcbugwq1oe8lc85t",
+      "name": "Caja telefono Nokia",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjcbljg25prxgi6yje",
+      "name": "Caja reloj Yema",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjcadthqn0tr3ddfe",
+      "name": "Caja reloj casio Edifice",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc9qbh2uez9nvhhcb",
+      "name": "Botas montaña Vivobarefoot",
+      "location": "Armario entrada",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc9b8e75hd96799ba",
+      "name": "Caja iPhone Victor",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc94wnyrd7ox7dn9",
+      "name": "Caja iPhone Anna",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc8ndpnq77hboaak",
+      "name": "Caja gafas sol Oakley",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc8bg5yiqzu45s97",
+      "name": "Termostato calefaccion",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc82am05fhp34qx68x",
+      "name": "Caja reloj Garmin",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc7p2snwoi69gnz5",
+      "name": "Auriculares Huawei FreeClip",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc78budma9e6kb9v",
+      "name": "Caja reloj TagHeuer",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjc6o0bqiy2ec1pay",
+      "name": "Pulsiometro Polar OH10",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjb1rehfhgkallrx8",
+      "name": "Caja reloj Tissot PRC 100",
+      "location": "Cama Martin",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjb0eq9zyyvadlia9",
+      "name": "Trineo nieve",
+      "location": "Trastero JJ",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    },
+    {
+      "id": "mbjb03fen27ojdm353",
+      "name": "Arbol de navidad",
+      "location": "Trastero rellano",
+      "dateAdded": "5/6/2025",
+      "dateModified": "2025-06-07T20:09:40.792Z"
+    }
+  ]
 }
