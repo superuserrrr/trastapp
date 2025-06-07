@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2024-06-05T15:17:39.000Z",
+  "totalItems": 8,
+  "items": [
+    {
+      "id": "1a2b3c4d",
+      "nombre": "Taladro eléctrico Bosch",
+      "ubicacion": "Garaje - Estante superior izquierdo",
+      "fechaCreacion": "2024-06-01T10:30:00.000Z",
+      "fechaModificacion": "2024-06-01T10:30:00.000Z"
+    },
+    {
+      "id": "5e6f7g8h",
+      "nombre": "Libros de programación",
+      "ubicacion": "Oficina - Estantería central",
+      "fechaCreacion": "2024-06-02T14:15:00.000Z",
+      "fechaModificacion": "2024-06-02T14:15:00.000Z"
+    },
+    {
+      "id": "9i0j1k2l",
+      "nombre": "Herramientas de jardinería",
+      "ubicacion": "Sótano - Caja azul grande",
+      "fechaCreacion": "2024-06-03T09:45:00.000Z",
+      "fechaModificacion": "2024-06-04T16:20:00.000Z"
+    },
+    {
+      "id": "3m4n5o6p",
+      "nombre": "Decoraciones navideñas",
+      "ubicacion": "Ático - Caja roja con etiqueta",
+      "fechaCreacion": "2024-06-01T12:00:00.000Z",
+      "fechaModificacion": "2024-06-01T12:00:00.000Z"
+    },
+    {
+      "id": "7q8r9s0t",
+      "nombre": "Equipo de camping",
+      "ubicacion": "Garaje - Armario metálico",
+      "fechaCreacion": "2024-06-02T16:30:00.000Z",
+      "fechaModificacion": "2024-06-02T16:30:00.000Z"
+    },
+    {
+      "id": "1u2v3w4x",
+      "nombre": "Juguetes de los niños",
+      "ubicacion": "Dormitorio infantil - Baúl bajo la ventana",
+      "fechaCreacion": "2024-06-03T11:20:00.000Z",
+      "fechaModificacion": "2024-06-05T08:15:00.000Z"
+    },
+    {
+      "id": "5y6z7a8b",
+      "nombre": "Ropa de invierno",
+      "ubicacion": "Dormitorio principal - Armario empotrado superior",
+      "fechaCreacion": "2024-06-01T15:45:00.000Z",
+      "fechaModificacion": "2024-06-01T15:45:00.000Z"
+    },
+    {
+      "id": "9c0d1e2f",
+      "nombre": "Documentos importantes",
+      "ubicacion": "Oficina - Archivador cajón 2",
+      "fechaCreacion": "2024-06-04T13:10:00.000Z",
+      "fechaModificacion": "2024-06-04T13:10:00.000Z"
+    }
+  ]
+}

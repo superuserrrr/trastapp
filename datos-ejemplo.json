@@ -1,0 +1,96 @@
+{
+  "version": "1.2.0",
+  "exportDate": "2025-06-05T21:03:00.000Z",
+  "items": [
+    {
+      "id": "1733437800001",
+      "name": "Herramientas de Jardinería",
+      "location": "Garaje, estante superior izquierdo",
+      "category": "herramientas",
+      "description": "Conjunto completo de herramientas para jardinería: pala, rastrillo, tijeras de podar, guantes y regadera pequeña.",
+      "dateAdded": "2025-06-05T10:30:00.000Z",
+      "dateModified": "2025-06-05T10:30:00.000Z"
+    },
+    {
+      "id": "1733437800002",
+      "name": "Libros de Cocina",
+      "location": "Cocina, estante superior derecho",
+      "category": "libros",
+      "description": "Colección de 8 libros de recetas internacionales: italiana, mexicana, asiática y repostería.",
+      "dateAdded": "2025-06-05T11:15:00.000Z",
+      "dateModified": "2025-06-05T11:15:00.000Z"
+    },
+    {
+      "id": "1733437800003",
+      "name": "Juguetes de Construcción",
+      "location": "Cuarto de niños, caja grande azul",
+      "category": "juguetes",
+      "description": "Bloques de construcción LEGO variados, incluye instrucciones para 5 modelos diferentes. Aproximadamente 500 piezas.",
+      "dateAdded": "2025-06-05T14:20:00.000Z",
+      "dateModified": "2025-06-05T14:20:00.000Z"
+    },
+    {
+      "id": "1733437800004",
+      "name": "Documentos Importantes",
+      "location": "Oficina, archivero, cajón superior",
+      "category": "documentos",
+      "description": "Carpeta con documentos vitales: pasaportes, actas de nacimiento, seguros de vida y contratos importantes.",
+      "dateAdded": "2025-06-05T09:45:00.000Z",
+      "dateModified": "2025-06-05T09:45:00.000Z"
+    },
+    {
+      "id": "1733437800005",
+      "name": "Ropa de Invierno",
+      "location": "Clóset principal, caja superior",
+      "category": "ropa",
+      "description": "Abrigos, suéteres gruesos, bufandas y guantes para toda la familia. Ropa de temporada guardada al vacío.",
+      "dateAdded": "2025-06-05T16:00:00.000Z",
+      "dateModified": "2025-06-05T16:00:00.000Z"
+    },
+    {
+      "id": "1733437800006",
+      "name": "Electrodomésticos Pequeños",
+      "location": "Despensa, estante inferior",
+      "category": "electrodomesticos",
+      "description": "Licuadora portátil, tostadora de 2 ranuras, cafetera personal y batidora de mano con accesorios.",
+      "dateAdded": "2025-06-05T12:30:00.000Z",
+      "dateModified": "2025-06-05T12:30:00.000Z"
+    },
+    {
+      "id": "1733437800007",
+      "name": "Equipo de Ejercicio",
+      "location": "Sótano, rincón derecho",
+      "category": "deportes",
+      "description": "Mancuernas ajustables (5-25 kg), banda elástica de resistencia, tapete de yoga y pelota de ejercicio.",
+      "dateAdded": "2025-06-05T18:45:00.000Z",
+      "dateModified": "2025-06-05T18:45:00.000Z"
+    },
+    {
+      "id": "1733437800008",
+      "name": "Decoraciones Navideñas",
+      "location": "Ático, cajas marcadas 'Navidad'",
+      "category": "decoracion",
+      "description": "Luces LED multicolor, esferas variadas, guirnaldas, estrella para árbol y nacimiento completo con figuras.",
+      "dateAdded": "2025-06-05T08:15:00.000Z",
+      "dateModified": "2025-06-05T08:15:00.000Z"
+    },
+    {
+      "id": "1733437800009",
+      "name": "Utensilios de Cocina Especiales",
+      "location": "Cocina, cajón profundo izquierdo",
+      "category": "cocina",
+      "description": "Moldes para repostería, cortadores de galletas, espátulas especiales, termómetro de cocina y báscula digital.",
+      "dateAdded": "2025-06-05T13:20:00.000Z",
+      "dateModified": "2025-06-05T13:20:00.000Z"
+    },
+    {
+      "id": "1733437800010",
+      "name": "Cables y Adaptadores",
+      "location": "Escritorio, cajón organizador",
+      "category": "otros",
+      "description": "Cables USB-C, adaptadores de corriente, cables HDMI, cargadores de móvil antiguos y organizador de cables.",
+      "dateAdded": "2025-06-05T15:10:00.000Z",
+      "dateModified": "2025-06-05T15:10:00.000Z"
+    }
+  ]
+}
